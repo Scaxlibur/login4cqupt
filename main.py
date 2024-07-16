@@ -43,8 +43,8 @@ def get_args():
     parser.add_argument('-o',
                         '--operator',
                         default='cmcc',
-                        choices=['cmcc', 'telecom'],
-                        help='operator, cmcc or telecom')
+                        choices=['cmcc', 'telecom', 'unicom'],
+                        help='operator, cmcc, unicom or telecom')
     parser.add_argument('-d',
                         '--device',
                         default='pc',
